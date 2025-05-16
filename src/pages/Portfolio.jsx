@@ -100,6 +100,7 @@ export default function Portfolio() {
             <Card className="bg-gray-800">
               <CardContent className="p-4">
                 <h3 className="text-2xl font-bold mb-2">
+<<<<<<< HEAD
                   💼 Projeto: Chef Comanda
                 </h3>
                 <p className="mb-4">
@@ -108,6 +109,13 @@ export default function Portfolio() {
                   Criação de interfaces responsivas e intuitivas, incluindo login, dashboard, cardápio online com categorias e imagens.
                   Utilização de React Router, Context API e componentes reutilizáveis.
                   Foco em boas práticas de UI/UX e integração com Stripe para planos e assinaturas.
+=======
+                  App Rastreamento Vegetal
+                </h3>
+                <p className="mb-4">
+                  Aplicativo mobile para monitoramento de plantações com
+                  geolocalização, autenticação de usuários.
+>>>>>>> 4004318f8d20521e7f571f1c44b905199666400e
                 </p>
                 <p className="mb-2 font-semibold">Tecnologias:</p>
                 <div className="flex flex-wrap gap-2 mb-4">
@@ -115,6 +123,7 @@ export default function Portfolio() {
                     JavaScript
                   </span>
                   <span className="bg-blue-600 px-2 py-1 rounded">
+<<<<<<< HEAD
                     React.Js
                   </span>
                   <span className="bg-blue-600 px-2 py-1 rounded">
@@ -136,11 +145,22 @@ export default function Portfolio() {
                     Vite
                   </span>
 
+=======
+                    React Native
+                  </span>
+                  <span className="bg-blue-600 px-2 py-1 rounded">
+                    Geolocalização API
+                  </span>
+>>>>>>> 4004318f8d20521e7f571f1c44b905199666400e
                 </div>
                 <div className="flex gap-4">
                   <Button asChild>
                     <a
+<<<<<<< HEAD
                       href="https://github.com/manaujo/ChefComanda"
+=======
+                      href="https://github.com/manaujo/app-rastreamento-vegetal"
+>>>>>>> 4004318f8d20521e7f571f1c44b905199666400e
                       target="_blank"
                     >
                       Ver Código
