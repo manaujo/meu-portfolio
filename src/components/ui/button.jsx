@@ -1,5 +1,4 @@
 export function Button({ children, asChild, variant = "primary", ...props }) {
-  const Tag = asChild ? 'a' : 'button';
   let style = "px-6 py-3 rounded-lg font-semibold transition-all duration-300 inline-flex items-center justify-center ";
 
   if (variant === "outline") {
@@ -10,9 +9,17 @@ export function Button({ children, asChild, variant = "primary", ...props }) {
     style += "bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white hover:scale-105 shadow-lg shadow-purple-500/50";
   }
 
+  if (asChild) {
+    return (
+      <a className={style} {...props}>
+        {children}
+      </a>
+    );
+  }
+
   return (
-    <Tag className={style} {...props}>
+    <button className={style} {...props}>
       {children}
-    </Tag>
+    </button>
   );
 }

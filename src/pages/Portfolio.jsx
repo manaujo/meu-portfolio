@@ -81,9 +81,9 @@ export default function Portfolio() {
                     <FaMapMarkerAlt className="text-purple-400" />
                     <span>Goiânia – GO</span>
                   </div>
-                  <a href="mailto:marcio.araujo.m7@gmail.com" className="flex items-center gap-2 bg-slate-800/50 px-4 py-2 rounded-full hover:bg-slate-700 transition">
-                    <FaEnvelope className="text-purple-400" />
-                    <span>marcio.araujo.m7@gmail.com</span>
+                  <a href="mailto:marcio.araujo.m7@gmail.com" className="flex items-center gap-2 bg-slate-800/50 px-4 py-2 rounded-full hover:bg-slate-700 transition no-underline">
+                    <FaEnvelope className="text-purple-400 !text-purple-400" />
+                    <span className="text-gray-300">marcio.araujo.m7@gmail.com</span>
                   </a>
                   <a href="https://wa.me/5562982760471" target="_blank" className="flex items-center gap-2 bg-slate-800/50 px-4 py-2 rounded-full hover:bg-slate-700 transition">
                     <FaPhone className="text-purple-400" />
@@ -99,23 +99,23 @@ export default function Portfolio() {
                   variants={fadeInUp}
                   className="flex flex-wrap gap-4 justify-center md:justify-start"
                 >
-                  <Button asChild variant="primary">
-                    <a href="https://github.com/manaujo" target="_blank" rel="noopener noreferrer">
+                  <Button asChild variant="primary" href="https://github.com/manaujo" target="_blank" rel="noopener noreferrer">
+                    <a>
                       <FaGithub className="mr-2" /> GitHub
                     </a>
                   </Button>
-                  <Button asChild variant="primary">
-                    <a href="https://www.linkedin.com/in/marcio-araujo-35b71b233/" target="_blank" rel="noopener noreferrer">
+                  <Button asChild variant="primary" href="https://www.linkedin.com/in/marcio-araujo-35b71b233/" target="_blank" rel="noopener noreferrer">
+                    <a>
                       <FaLinkedin className="mr-2" /> LinkedIn
                     </a>
                   </Button>
-                  <Button asChild variant="outline">
-                    <a href="mailto:marcio.araujo.m7@gmail.com">
+                  <Button asChild variant="outline" href="mailto:marcio.araujo.m7@gmail.com">
+                    <a>
                       <FaEnvelope className="mr-2" /> E-mail
                     </a>
                   </Button>
-                  <Button asChild variant="whatsapp">
-                    <a href="https://wa.me/5562982760471" target="_blank" rel="noopener noreferrer">
+                  <Button asChild variant="whatsapp" href="https://wa.me/5562982760471" target="_blank" rel="noopener noreferrer">
+                    <a>
                       <FaWhatsapp className="mr-2" /> WhatsApp
                     </a>
                   </Button>
