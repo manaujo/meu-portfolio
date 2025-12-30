@@ -1,6 +1,6 @@
 export function Card({ children, className }) {
   return (
-    <div className={`rounded-2xl shadow-lg p-4 ${className}`}>
+    <div className={`rounded-2xl shadow-xl ${className || ''}`}>
       {children}
     </div>
   );
@@ -8,7 +8,7 @@ export function Card({ children, className }) {
 
 export function CardContent({ children, className }) {
   return (
-    <div className={className}>
+    <div className={className || ''}>
       {children}
     </div>
   );
