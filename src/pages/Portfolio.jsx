@@ -45,7 +45,7 @@ export default function Portfolio() {
               >
                 <img
                   src={profileImg}
-                  alt="Marcio Araujo"
+                  alt="Márcio Costa Araújo"
                   className="w-48 h-48 rounded-full object-cover shadow-2xl border-4 border-purple-500 ring-4 ring-purple-500/20"
                 />
               </motion.div>
@@ -55,7 +55,7 @@ export default function Portfolio() {
                   variants={fadeInUp}
                   className="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent"
                 >
-                  Marcio Araujo
+                  Márcio Costa Araújo
                 </motion.h1>
                 <motion.p
                   variants={fadeInUp}
@@ -63,14 +63,8 @@ export default function Portfolio() {
                 >
                   <span className="flex items-center gap-2 bg-gradient-to-r from-purple-600/20 to-pink-600/20 px-4 py-2 rounded-full border border-purple-500/30">
                     <FaLaptopCode className="text-purple-400" />
-                    <span>Desenvolvedor Back-end | Go (Golang) • APIs REST • Docker</span>
+                    <span>Desenvolvedor Web | JavaScript | React.js | React Native | TypeScript | HTML5 | CSS3 | APIs REST | Git</span>
                   </span>
-                </motion.p>
-                <motion.p
-                  variants={fadeInUp}
-                  className="text-base mb-3 text-gray-400 italic"
-                >
-                  Com experiência em Front-end (JavaScript, React e React Native)
                 </motion.p>
 
                 <motion.div
@@ -141,14 +135,25 @@ export default function Portfolio() {
           <Card className="bg-gradient-to-br from-slate-800/90 to-slate-900/90 backdrop-blur-sm border border-purple-500/20">
             <CardContent className="p-8">
               <p className="text-lg mb-4 text-gray-300 leading-relaxed">
-                Desenvolvedor Back-end com foco em <strong>Go (Golang)</strong> e construção de <strong>APIs REST</strong>, com experiência prática em projetos reais e participação em <strong>Projeto Científico</strong>.
+                Sou Desenvolvedor Front-end com foco em <strong>React</strong> e <strong>TypeScript</strong>, atuando no desenvolvimento de interfaces modernas, responsivas e orientadas à experiência do usuário.
               </p>
               <p className="text-lg mb-4 text-gray-300 leading-relaxed">
-                Possui experiência complementar em Front-end, atuando no desenvolvimento de interfaces modernas e responsivas com <strong>React</strong> e <strong>React Native</strong>, adquirida por meio de projetos profissionais e aplicações em produção. Essa vivência contribui para uma visão completa do ciclo de desenvolvimento, desde a interface até a lógica de negócio e integrações.
+                Tenho experiência prática no desenvolvimento de aplicações web e mobile, utilizando <strong>React</strong>, <strong>React Native</strong> e integração com <strong>APIs REST</strong>. Ao longo da minha trajetória, participei da criação e manutenção de sistemas utilizados em ambientes corporativos e projetos científicos, sempre seguindo boas práticas de código, versionamento e metodologias ágeis.
               </p>
-              <p className="text-lg text-gray-300 leading-relaxed">
-                Conhecimento em <strong>Docker</strong>, integração com bancos de dados modernos (<strong>Supabase</strong>) e serviços externos como <strong>Stripe</strong>, aplicando boas práticas de organização de código, versionamento com <strong>Git</strong> e trabalho colaborativo.
+              <p className="text-lg mb-4 text-gray-300 leading-relaxed">
+                Atualmente atuo como <strong>Analista de Informática Pleno</strong> na <strong>Hapvida NotreDame Intermédica</strong>, contribuindo com suporte e evolução de soluções internas, além de já ter trabalhado como <strong>Desenvolvedor Web</strong> e <strong>Desenvolvedor de Software</strong> em projetos reais.
               </p>
+              <p className="text-lg mb-4 text-gray-300 leading-relaxed">
+                Possuo conhecimentos em Back-end com <strong>Node.js</strong>, <strong>Go (Golang)</strong> e <strong>Java</strong>, o que me permite uma visão full stack e melhor comunicação entre camadas da aplicação.
+              </p>
+              <div className="mt-6 pt-6 border-t border-purple-500/20">
+                <p className="text-lg mb-3 text-gray-300">
+                  <span className="text-purple-400">🚀 Tecnologias:</span> React | TypeScript | JavaScript | React Native | HTML | CSS | APIs REST | Node.js | Go | Java | Git | Docker
+                </p>
+                <p className="text-lg text-gray-300">
+                  <span className="text-purple-400">📌 Busco oportunidades</span> como Desenvolvedor Front-end, Front-end Mobile ou Full Stack, onde eu possa evoluir tecnicamente e gerar impacto real através da tecnologia.
+                </p>
+              </div>
             </CardContent>
           </Card>
         </motion.section>
@@ -179,15 +184,15 @@ export default function Portfolio() {
                   <ul className="space-y-2 text-gray-300">
                     <li className="flex items-start">
                       <span className="text-purple-400 mr-2">▹</span>
-                      Suporte e desenvolvimento de soluções internas voltadas à eficiência operacional.
+                      Suporte e desenvolvimento de soluções internas com foco em sistemas e aplicações
                     </li>
                     <li className="flex items-start">
                       <span className="text-purple-400 mr-2">▹</span>
-                      Manutenção e evolução de sistemas, com foco em estabilidade e melhoria contínua.
+                      Apoio na manutenção e evolução de interfaces utilizadas por áreas internas
                     </li>
                     <li className="flex items-start">
                       <span className="text-purple-400 mr-2">▹</span>
-                      Atuação colaborativa com equipes multidisciplinares, seguindo boas práticas e padrões de qualidade.
+                      Colaboração com equipes de desenvolvimento e áreas de negócio
                     </li>
                   </ul>
                 </CardContent>
@@ -208,27 +213,27 @@ export default function Portfolio() {
                   <ul className="space-y-2 text-gray-300">
                     <li className="flex items-start">
                       <span className="text-purple-400 mr-2">▹</span>
-                      Desenvolvimento e manutenção de aplicações web responsivas com React e TypeScript.
+                      Desenvolvimento de aplicações web responsivas utilizando React e TypeScript
                     </li>
                     <li className="flex items-start">
                       <span className="text-purple-400 mr-2">▹</span>
-                      Integração com APIs REST e serviços externos.
+                      Integração com APIs REST e serviços externos
                     </li>
                     <li className="flex items-start">
                       <span className="text-purple-400 mr-2">▹</span>
-                      Implementação de boas práticas de UI/UX, melhorando a experiência do usuário.
+                      Aplicação de boas práticas de UI/UX
                     </li>
                     <li className="flex items-start">
                       <span className="text-purple-400 mr-2">▹</span>
-                      Versionamento com Git/GitHub e trabalho em equipe.
+                      Refatoração e otimização de performance
                     </li>
                     <li className="flex items-start">
                       <span className="text-purple-400 mr-2">▹</span>
-                      Correção de bugs, refatoração e otimização de performance.
+                      Versionamento com Git e GitHub
                     </li>
                     <li className="flex items-start">
                       <span className="text-purple-400 mr-2">▹</span>
-                      Participação ativa em rituais ágeis (Scrum/Kanban).
+                      Atuação em ambiente ágil (Scrum/Kanban)
                     </li>
                   </ul>
                 </CardContent>
@@ -245,25 +250,105 @@ export default function Portfolio() {
                     <h3 className="text-2xl font-bold mb-2">Desenvolvedor de Software</h3>
                     <span className="text-purple-400 font-semibold">06/2024 – 11/2025</span>
                   </div>
-                  <p className="text-xl text-purple-300 mb-4">Projeto Científico – UFG (Confidencial) — Goiânia/GO</p>
+                  <p className="text-xl text-purple-300 mb-4">Aplicativo Mobile de Rastreamento Vegetal – Projeto Científico (UFG) — Goiânia/GO</p>
                   <ul className="space-y-2 text-gray-300">
                     <li className="flex items-start">
                       <span className="text-purple-400 mr-2">▹</span>
-                      Desenvolvimento de aplicações web para projeto científico federal.
+                      Desenvolvimento de aplicativo mobile para rastreamento vegetal
                     </li>
                     <li className="flex items-start">
                       <span className="text-purple-400 mr-2">▹</span>
-                      Criação de interfaces modernas e funcionais.
+                      Implementação de interfaces mobile utilizando React Native
                     </li>
                     <li className="flex items-start">
                       <span className="text-purple-400 mr-2">▹</span>
-                      Integrações com APIs e bancos de dados modernos.
+                      Consumo de APIs REST para visualização e acompanhamento de dados
                     </li>
                     <li className="flex items-start">
                       <span className="text-purple-400 mr-2">▹</span>
-                      Organização do código seguindo padrões de projeto e boas práticas.
+                      Integração com bancos de dados
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-purple-400 mr-2">▹</span>
+                      Organização do código seguindo boas práticas e padrões de projeto
                     </li>
                   </ul>
+                </CardContent>
+              </Card>
+            </motion.div>
+          </div>
+        </motion.section>
+
+        {/* Projetos Destacados */}
+        <motion.section
+          initial="initial"
+          whileInView="animate"
+          viewport={{ once: true }}
+          variants={fadeInUp}
+          className="mb-16"
+        >
+          <h2 className="text-4xl font-bold mb-8 text-center bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+            Projetos Destacados
+          </h2>
+          <div className="space-y-6">
+            <motion.div
+              whileHover={{ scale: 1.02, y: -5 }}
+              transition={{ type: "spring", stiffness: 300 }}
+            >
+              <Card className="bg-gradient-to-br from-slate-800/90 to-slate-900/90 backdrop-blur-sm border border-purple-500/20 hover:border-purple-500/50 transition">
+                <CardContent className="p-8">
+                  <h3 className="text-2xl font-bold mb-4">Plataforma Web Chef Comanda</h3>
+                  <ul className="space-y-2 text-gray-300 mb-4">
+                    <li className="flex items-start">
+                      <span className="text-purple-400 mr-2">▹</span>
+                      Desenvolvimento de aplicações web responsivas com React e TypeScript
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-purple-400 mr-2">▹</span>
+                      Criação de componentes reutilizáveis e integração com serviços externos
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-purple-400 mr-2">▹</span>
+                      Refatoração e otimização de performance da aplicação
+                    </li>
+                  </ul>
+                  <div className="flex flex-wrap gap-2 mt-4">
+                    <span className="px-3 py-1 bg-blue-600/30 border border-blue-500/50 rounded-full text-sm">React</span>
+                    <span className="px-3 py-1 bg-blue-600/30 border border-blue-500/50 rounded-full text-sm">TypeScript</span>
+                    <span className="px-3 py-1 bg-green-600/30 border border-green-500/50 rounded-full text-sm">APIs REST</span>
+                    <span className="px-3 py-1 bg-pink-600/30 border border-pink-500/50 rounded-full text-sm">Git</span>
+                    <span className="px-3 py-1 bg-pink-600/30 border border-pink-500/50 rounded-full text-sm">Scrum</span>
+                  </div>
+                </CardContent>
+              </Card>
+            </motion.div>
+
+            <motion.div
+              whileHover={{ scale: 1.02, y: -5 }}
+              transition={{ type: "spring", stiffness: 300 }}
+            >
+              <Card className="bg-gradient-to-br from-slate-800/90 to-slate-900/90 backdrop-blur-sm border border-purple-500/20 hover:border-purple-500/50 transition">
+                <CardContent className="p-8">
+                  <h3 className="text-2xl font-bold mb-4">Aplicativo Mobile de Rastreamento Vegetal – Projeto Científico (UFG)</h3>
+                  <ul className="space-y-2 text-gray-300 mb-4">
+                    <li className="flex items-start">
+                      <span className="text-purple-400 mr-2">▹</span>
+                      Desenvolvimento de aplicativo mobile multiplataforma
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-purple-400 mr-2">▹</span>
+                      Criação de interfaces mobile e integração com APIs REST
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-purple-400 mr-2">▹</span>
+                      Visualização e acompanhamento de dados de rastreamento vegetal
+                    </li>
+                  </ul>
+                  <div className="flex flex-wrap gap-2 mt-4">
+                    <span className="px-3 py-1 bg-blue-600/30 border border-blue-500/50 rounded-full text-sm">React Native</span>
+                    <span className="px-3 py-1 bg-purple-600/30 border border-purple-500/50 rounded-full text-sm">JavaScript</span>
+                    <span className="px-3 py-1 bg-green-600/30 border border-green-500/50 rounded-full text-sm">APIs REST</span>
+                  </div>
                 </CardContent>
               </Card>
             </motion.div>
@@ -285,56 +370,51 @@ export default function Portfolio() {
             <CardContent className="p-8">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div>
-                  <h3 className="text-xl font-bold mb-4 text-purple-300">Linguagens</h3>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 bg-purple-600/30 border border-purple-500/50 rounded-full text-sm">JavaScript</span>
-                    <span className="px-3 py-1 bg-purple-600/30 border border-purple-500/50 rounded-full text-sm">TypeScript</span>
-                    <span className="px-3 py-1 bg-purple-600/30 border border-purple-500/50 rounded-full text-sm">Go (Golang)</span>
-                    <span className="px-3 py-1 bg-purple-600/30 border border-purple-500/50 rounded-full text-sm">Java</span>
-                  </div>
-                </div>
-
-                <div>
                   <h3 className="text-xl font-bold mb-4 text-purple-300">Front-end</h3>
                   <div className="flex flex-wrap gap-2">
                     <span className="px-3 py-1 bg-blue-600/30 border border-blue-500/50 rounded-full text-sm">React.js</span>
-                    <span className="px-3 py-1 bg-blue-600/30 border border-blue-500/50 rounded-full text-sm">React Native</span>
+                    <span className="px-3 py-1 bg-blue-600/30 border border-blue-500/50 rounded-full text-sm">TypeScript</span>
+                    <span className="px-3 py-1 bg-blue-600/30 border border-blue-500/50 rounded-full text-sm">JavaScript</span>
                     <span className="px-3 py-1 bg-blue-600/30 border border-blue-500/50 rounded-full text-sm">HTML5</span>
                     <span className="px-3 py-1 bg-blue-600/30 border border-blue-500/50 rounded-full text-sm">CSS3</span>
+                    <span className="px-3 py-1 bg-blue-600/30 border border-blue-500/50 rounded-full text-sm">UI/UX</span>
+                    <span className="px-3 py-1 bg-blue-600/30 border border-blue-500/50 rounded-full text-sm">SPAs</span>
                   </div>
                 </div>
 
                 <div>
-                  <h3 className="text-xl font-bold mb-4 text-purple-300">Back-end</h3>
+                  <h3 className="text-xl font-bold mb-4 text-purple-300">Mobile</h3>
                   <div className="flex flex-wrap gap-2">
+                    <span className="px-3 py-1 bg-cyan-600/30 border border-cyan-500/50 rounded-full text-sm">React Native</span>
+                  </div>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold mb-4 text-purple-300">Integração e Back-end</h3>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="px-3 py-1 bg-green-600/30 border border-green-500/50 rounded-full text-sm">APIs REST</span>
                     <span className="px-3 py-1 bg-green-600/30 border border-green-500/50 rounded-full text-sm">Node.js</span>
                     <span className="px-3 py-1 bg-green-600/30 border border-green-500/50 rounded-full text-sm">Go (Golang)</span>
                     <span className="px-3 py-1 bg-green-600/30 border border-green-500/50 rounded-full text-sm">Java</span>
-                    <span className="px-3 py-1 bg-green-600/30 border border-green-500/50 rounded-full text-sm">APIs REST</span>
                   </div>
                 </div>
 
                 <div>
-                  <h3 className="text-xl font-bold mb-4 text-purple-300">Banco de Dados & BaaS</h3>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 bg-yellow-600/30 border border-yellow-500/50 rounded-full text-sm">Supabase</span>
-                  </div>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-bold mb-4 text-purple-300">Infra & DevOps</h3>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 bg-cyan-600/30 border border-cyan-500/50 rounded-full text-sm">Docker</span>
-                  </div>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-bold mb-4 text-purple-300">Ferramentas & Metodologias</h3>
+                  <h3 className="text-xl font-bold mb-4 text-purple-300">Ferramentas e Infra</h3>
                   <div className="flex flex-wrap gap-2">
                     <span className="px-3 py-1 bg-pink-600/30 border border-pink-500/50 rounded-full text-sm">Git</span>
                     <span className="px-3 py-1 bg-pink-600/30 border border-pink-500/50 rounded-full text-sm">GitHub</span>
-                    <span className="px-3 py-1 bg-pink-600/30 border border-pink-500/50 rounded-full text-sm">Scrum</span>
-                    <span className="px-3 py-1 bg-pink-600/30 border border-pink-500/50 rounded-full text-sm">Kanban</span>
+                    <span className="px-3 py-1 bg-pink-600/30 border border-pink-500/50 rounded-full text-sm">Docker</span>
+                  </div>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold mb-4 text-purple-300">Metodologias e IA</h3>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="px-3 py-1 bg-yellow-600/30 border border-yellow-500/50 rounded-full text-sm">Scrum</span>
+                    <span className="px-3 py-1 bg-yellow-600/30 border border-yellow-500/50 rounded-full text-sm">Kanban</span>
+                    <span className="px-3 py-1 bg-yellow-600/30 border border-yellow-500/50 rounded-full text-sm">Engenharia de Prompts</span>
+                    <span className="px-3 py-1 bg-yellow-600/30 border border-yellow-500/50 rounded-full text-sm">IA aplicada ao desenvolvimento</span>
                   </div>
                 </div>
               </div>
@@ -362,6 +442,32 @@ export default function Portfolio() {
                 <h3 className="text-2xl font-bold mb-2">Análise e Desenvolvimento de Sistemas</h3>
                 <p className="text-xl text-purple-300 mb-2">Faculdade Descomplica — Goiás</p>
                 <p className="text-gray-400">04/2024 – Cursando</p>
+              </CardContent>
+            </Card>
+          </motion.div>
+        </motion.section>
+
+        {/* Idiomas */}
+        <motion.section
+          initial="initial"
+          whileInView="animate"
+          viewport={{ once: true }}
+          variants={fadeInUp}
+          className="mb-16"
+        >
+          <h2 className="text-4xl font-bold mb-8 text-center bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+            Idiomas
+          </h2>
+          <motion.div
+            whileHover={{ scale: 1.02, y: -5 }}
+            transition={{ type: "spring", stiffness: 300 }}
+          >
+            <Card className="bg-gradient-to-br from-slate-800/90 to-slate-900/90 backdrop-blur-sm border border-purple-500/20 hover:border-purple-500/50 transition">
+              <CardContent className="p-8">
+                <div className="flex flex-col md:flex-row md:items-center md:justify-between">
+                  <h3 className="text-2xl font-bold mb-2">Inglês</h3>
+                  <span className="text-purple-400 font-semibold">Básico (leitura técnica)</span>
+                </div>
               </CardContent>
             </Card>
           </motion.div>
@@ -583,7 +689,7 @@ export default function Portfolio() {
           <Card className="bg-gradient-to-br from-slate-800/90 to-slate-900/90 backdrop-blur-sm border border-purple-500/20">
             <CardContent className="p-8">
               <p className="text-lg text-gray-300 leading-relaxed text-center">
-                Atuar como <strong>Desenvolvedor de Software</strong>, com foco principal em <strong>Back-end (Go / APIs REST)</strong> e experiência prática em <strong>Front-end (React e React Native)</strong>, contribuindo para o desenvolvimento de soluções completas, escaláveis e bem estruturadas. Aplicar boas práticas de código, versionamento, integração entre camadas e trabalho colaborativo, agregando valor tanto em projetos de Back-end quanto de Front-end, conforme a necessidade da equipe e do produto.
+                Atuar como <strong>Desenvolvedor Front-end</strong>, com foco em <strong>React</strong> e <strong>TypeScript</strong>, desenvolvendo interfaces modernas, responsivas e orientadas à experiência do usuário. Contribuir também no desenvolvimento de aplicações mobile com <strong>React Native</strong>, aplicando sólidos conhecimentos em integração com <strong>APIs REST</strong> e noções de Back-end para facilitar a comunicação com equipes técnicas e a entrega de soluções completas.
               </p>
             </CardContent>
           </Card>
@@ -592,7 +698,7 @@ export default function Portfolio() {
         {/* Footer */}
         <footer className="mt-16 text-center border-t border-purple-500/20 pt-8">
           <p className="text-gray-400">
-            © 2025 Marcio Araujo. Todos os direitos reservados.
+            © 2025 Márcio Costa Araújo. Todos os direitos reservados.
           </p>
         </footer>
       </div>
