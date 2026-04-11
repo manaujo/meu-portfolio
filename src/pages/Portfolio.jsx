@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaBriefcase, FaMapMarkerAlt, FaLaptopCode, FaMobileAlt } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaBriefcase, FaMapMarkerAlt, FaLaptopCode, FaMobileAlt } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { Card, CardContent } from "../components/ui/card";
@@ -78,10 +78,6 @@ export default function Portfolio() {
                   <a href="mailto:marcio.araujo.m7@gmail.com" className="flex items-center gap-2 bg-slate-800/50 px-4 py-2 rounded-full hover:bg-slate-700 transition no-underline">
                     <FaEnvelope className="text-purple-400 !text-purple-400" />
                     <span className="text-gray-300">marcio.araujo.m7@gmail.com</span>
-                  </a>
-                  <a href="https://wa.me/5562982760471" target="_blank" className="flex items-center gap-2 bg-slate-800/50 px-4 py-2 rounded-full hover:bg-slate-700 transition">
-                    <FaPhone className="text-purple-400" />
-                    <span>(62) 98276-0471</span>
                   </a>
                   <div className="flex items-center gap-2 bg-green-600/20 px-4 py-2 rounded-full border border-green-500/30">
                     <FaBriefcase className="text-green-400" />

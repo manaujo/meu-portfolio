@@ -1,8 +1,8 @@
-import Portfolio from './pages/Portfolio'
-import './App.css'
+import ServicosLanding from "./pages/ServicosLanding";
+import "./App.css";
 
 function App() {
-  return <Portfolio />
+  return <ServicosLanding />;
 }
 
-export default App
+export default App;
